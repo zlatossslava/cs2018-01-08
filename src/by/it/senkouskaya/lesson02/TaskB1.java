@@ -16,6 +16,8 @@ Scanner sc=new Scanner(System.in);
 
  */
 
-class TaskB1 {
+import java.util.Scanner;
+
+class TaskB1{
 
 }
