@@ -11,10 +11,10 @@ package by.it.borovik.lesson02;
 
 class TaskA2 {
     public static void main(String[] args) {
-        String i = "Я начинаю изучать Java";
-        int y = 1 {
-            for (y = 0; y < 5; y++)
-                System.out.println(i);
-        }
-        }
+        System.out.println("Я начинаю изучать Java");
+        System.out.println("Я начинаю изучать Java");
+        System.out.println("Я начинаю изучать Java");
+        System.out.println("Я начинаю изучать Java");
+        System.out.println("Я начинаю изучать Java");
+    }
     }
