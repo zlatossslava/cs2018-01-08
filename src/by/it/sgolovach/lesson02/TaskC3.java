@@ -1,5 +1,6 @@
 package by.it.sgolovach.lesson02;
 
+
 import java.util.Scanner;
 
 /*
@@ -46,10 +47,12 @@ class TaskC3 {
     }
 
     static double getWeight(int weight) {
+
+
         double a = weight / 9.81 * 3.86;
 
-
-        return a;
+        double c = (double) Math.round(a * 100) / 100;
+        return c;
     }
 
 
