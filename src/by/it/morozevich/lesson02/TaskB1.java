@@ -16,6 +16,22 @@ Scanner sc=new Scanner(System.in);
 
  */
 
+import java.util.Scanner;
+
+import static java.lang.System.in;
+
 class TaskB1 {
 
-}
+public static class Main {
+    public static void main (String[] args) {
+                System.out.println("Введите целое число:  ");
+        Scanner sc = new Scanner (in);
+        long a ;
+              a=sc.nextInt();
+              long b=a*a;
+            System.out.println("Квадрат="+b);
+        }
+        }
+    }
+
+
