@@ -9,11 +9,18 @@ package by.it.diatchik.lesson02;
 */
 class TaskA2 {
     public static void main(String[] args) {
-        System.out.println("Я начинаю изучать Java!");
+
+
+/*        System.out.println("Я начинаю изучать Java!");
         System.out.println("Я начинаю изучать Java!");
         System.out.println("Я начинаю изучать Java!");
         System.out.println("Я начинаю изучать Java!");
         System.out.println("Я начинаю изучать Java!");
     }
 }
-
+*/
+        for (int x = 0; x < 5; x++) {
+            System.out.println("Я начинаю изучать Java!");
+        }
+    }
+}
