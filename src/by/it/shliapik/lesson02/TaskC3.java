@@ -34,8 +34,7 @@ import java.util.Scanner;
 class TaskC3 {
 
     private static double getWeight(int weight){
-        double a=weight/9.81*3.86;
-        return (double) a;
+       return (double) (Math.round(weight*386/9.81))/100;
     }
 
 
