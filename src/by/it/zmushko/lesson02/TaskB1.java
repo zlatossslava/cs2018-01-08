@@ -16,8 +16,13 @@ Scanner sc=new Scanner(System.in);
 
  */
 
+import javax.xml.bind.SchemaOutputResolver;
+
 class TaskB1 {
     public static void main(String[] args) {
-
+        System.out.print ("Выводим квадрат числа") ;
+        Scanner sc = new Scanner(System.in);
+        int a = nextInt() ;
+                System.out.println(a + "*" + a);
     }
 }
