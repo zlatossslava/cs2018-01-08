@@ -21,7 +21,7 @@ public class Testing02 {
     @Test(timeout = 1500)
     public void testTaskA2() throws Exception {
         run("").include(
-                "Я начинаю изучать Java!\n" +
+                        "Я начинаю изучать Java!\n" +
                         "Я начинаю изучать Java!\n" +
                         "Я начинаю изучать Java!\n" +
                         "Я начинаю изучать Java!\n" +

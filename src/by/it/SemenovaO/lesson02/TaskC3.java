@@ -1,5 +1,7 @@
 package by.it.SemenovaO.lesson02;
 
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3,86
@@ -29,6 +31,33 @@ package by.it.SemenovaO.lesson02;
 
 
 */
-class TaskC3 {
+class TaskC3
+
+{
+    public static final double GR_MARS = 3.86;
+    public static final double GR_EARTH = 9.81;
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int weight = sc.nextInt();
+        double weight_mars = getWeight(weight);
+        System.out.printf("%5.2f",weight_mars);
+    }
+
+    //вычисляем вес на Марсе
+    private static double getWeight(int  weight) {
+        double w= weight*GR_MARS/GR_EARTH;
+        w=Math.round(w*100);
+        w=w/100;
+
+        return w;
+    }
+
 
 }
+
+
+
+
+
