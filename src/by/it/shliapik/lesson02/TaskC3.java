@@ -32,17 +32,21 @@ import java.util.Scanner;
 
 */
 class TaskC3 {
+
+    private static double getWeight(int weight){
+        double a=weight/9.81*3.86;
+        return (double) a;
+    }
+
+
+
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int weight=sc.nextInt();
-        private static double getWeight(int weight){
-            double a=weight/9.81*3.86;
-            return (double) a;
-        }
 
-        System.out.println(getWeight(a));
+        System.out.println(getWeight(weight));
     }
 
 }
 
-}
+
