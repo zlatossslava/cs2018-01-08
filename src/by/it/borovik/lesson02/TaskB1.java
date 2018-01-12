@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.borovik.lesson02;
 
 /*
 Выводим квадрат числа
@@ -16,6 +16,14 @@ Scanner sc=new Scanner(System.in);
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String args[]){
+        System.out.println("Введите любое целое число от 1 до 10: ");
+        Scanner scan = new Scanner(System.in);
+        int a;
+         a = scan.nextInt();
+        System.out.println( a*a);
     }
 }
