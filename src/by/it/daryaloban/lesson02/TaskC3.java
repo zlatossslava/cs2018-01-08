@@ -34,8 +34,6 @@ import java.util.Scanner;
 
 */
 
-import java.util.Scanner;
-
 class TaskC3 {
     public static double z = 9.81;
     public static double m = 3.86;
