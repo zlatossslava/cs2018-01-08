@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.SemenovaO.lesson02;
 
 class TaskA1 {
 /*
@@ -10,6 +10,6 @@ Hello world!
 Для автоматической проверки откройте и запустите класс Testing
 */
     public static void main(String[] args) {
-
+        System.out.println("Hello world!");
     }
 }
