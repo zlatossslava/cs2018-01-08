@@ -13,8 +13,8 @@ class TaskB3 {
     public static void main(String[] args) {
 //        String s = "C";
 //        System.out.println("Новым Годом");
-        System.out.println("C Новым");
-        System.out.println("Годом");
+        String s = "C Новым ";
+        System.out.println(s + "Годом");
 //        System.out.print("C Новым");
 //        System.out.println("Годом");
 //        System.out.println(s);
